@@ -146,3 +146,8 @@ sender.send(message, { registrationTokens: registrationTokens }, 10, function (e
 
 See [node-gcm](https://github.com/ToothlessGear/node-gcm) for more references.
 
+# Addition for this fork
+
+* Install more modules: http, https, fs
+* Create subfolder "cert" in node base directory
+* Put 'cert/privatekey.key' and 'cert/certificate.crt' in this folder
