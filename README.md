@@ -151,3 +151,6 @@ See [node-gcm](https://github.com/ToothlessGear/node-gcm) for more references.
 * Install more modules: http, https, fs
 * Create subfolder "cert" in node base directory
 * Put 'cert/privatekey.key' and 'cert/certificate.crt' in this folder
+* replace <MSSQL-INSTANCE> and <DATABASE> in fcm.js and possibly use trusted connection instead of username/password
+* TODO [ ] ensure to configure CORS properly so only trusted server can send tokens to this server
+
